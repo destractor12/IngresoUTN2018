@@ -22,11 +22,11 @@ function restar()
     var num2;
     var resta;
 
-        num1 = parseInt(document.getElementById("numeroUno")).value;
-        num2 = parseInt(document.getElementById("numeroDos")).value;
+        num1 = parseInt(document.getElementById("numeroUno").value);
+        num2 = parseInt(document.getElementById("numeroDos").value);
 
             resta = num1-num2;
-alert("La resta es: " +resta);            
+alert("La resta es: " + resta);            
 }
 
 function multiplicar()
@@ -35,11 +35,11 @@ function multiplicar()
     var num2;
     var mult;
 
-        num1 = parseInt(document.getElementById("numeroUno")).value;
-        num2 = parseInt(document.getElementById("numeroDos")).value;
+        num1 = parseInt(document.getElementById("numeroUno").value);
+        num2 = parseInt(document.getElementById("numeroDos").value);
 
             mult = num1*num2;
-alert("La multiplicacion es: " +mult);
+alert("La multiplicacion es: " + mult);
 }
 
 function dividir()
@@ -48,10 +48,10 @@ function dividir()
     var num2;
     var div;
 
-        num1 = parseInt(document.getElementById("numeroUno")).value;
-        num2 = parseInt(document.getElementById("numeroDos")).value;
+        num1 = parseInt(document.getElementById("numeroUno").value);
+        num2 = parseInt(document.getElementById("numeroDos").value);
 
             div = num1/num2;
-alert("La division es: " +div);
+alert("La division es: " + div);
 }
 

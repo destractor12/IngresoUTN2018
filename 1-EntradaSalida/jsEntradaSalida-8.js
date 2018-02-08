@@ -8,9 +8,9 @@ function SacarResto()
     var num2;
     var resto;
 
-        num1 = parseInt(document.getElementById("numeroDividendo")).value;
-        num2 = parseInt(document.getElementById("numeroDivisor")).value;
+        num1 = parseFloat(document.getElementById("numeroDividendo").value);
+        num2 = parseFloat(document.getElementById("numeroDivisor").value);
 
             resto=num1%num2;
-    alert("El resto es: " +resto);
+    alert("El resto es: " +resto.toFixed(2));
 }
