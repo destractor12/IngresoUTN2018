@@ -6,11 +6,11 @@ function SacarResto()
 {
 	var num1;
     var num2;
-    var div;
+    var resto;
 
-        num1 = parseInt(document.getElementById("numeroUno")).value;
-        num2 = parseInt(document.getElementById("numeroDos")).value;
+        num1 = parseInt(document.getElementById("numeroDividendo")).value;
+        num2 = parseInt(document.getElementById("numeroDivisor")).value;
 
-            div(num1/num2);
-alert("La division es: " +div);
+            resto=num1%num2;
+    alert("El resto es: " +resto);
 }
