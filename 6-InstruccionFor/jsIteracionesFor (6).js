@@ -1,19 +1,20 @@
 function Mostrar()
 {
     var num;
-    var contador;
+    var contador=0;
     num = prompt("Ingrese un numero:")
 
-    for(var i=0; i<=num ;i++)
+    for(var i=1; i<=num ;i++)
     {   
 
-        if(num%2 == 0)
+        if(i%2 == 1)
         {
-            contador++;
             continue;
         }
-
+    
+     contador++;
+     console.log(i);
     }
-alert("cantidad de numeros pares: " + contador)
+console.log("cantidad de numeros pares: " + contador)
 
 }//FIN DE LA FUNCIÓN
