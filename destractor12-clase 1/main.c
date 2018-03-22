@@ -3,7 +3,25 @@
 
 int main()
 {
-    printf("Hello world!\n");
+    int numero1;
+    float numero2;
+    float resultado;
+    char letra;
+
+    printf("Ingrese un numero entero: ");
+    scanf("%d",&numero1);
+    printf("Ingrese un numero con coma: ");
+    scanf("%f",&numero2);
+    printf("Ingrese una letra:");
+    //fflush(stdin);
+    //scanf(" %c", &letra);
+
+    letra = getche();
+    resultado= numero1+numero2;
+
+    printf("\nresultado:%.2f ",resultado);
+    printf("\nLa letra es:%c", letra);
+
     return 0;
 }
 /*main o es codigo orientado a objetos\t para tabular, \n para un salto de renglon y \a para hacer sonar el pitido del mother. todos van adentro de las comillas.
